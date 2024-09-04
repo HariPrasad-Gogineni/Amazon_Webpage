@@ -1,0 +1,138 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+}
+body {
+    font-family:Arial;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11151a;
+    color: white;
+    padding: 5px 5px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: #715b76;
+    border: none;
+}
+
+.account-cart a {
+    margin-left: 15px;
+    color: white;
+}
+
+nav {
+    background-color: #626567;
+    padding: 5px 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.background {
+    background-image: url('https://imgeng.jagran.com/images/2023/may/Amazon%20Great%20Summer%20sale%2020231683040264164.jpg');
+    background-size: cover;
+    background-position: center;
+    height:1000px;
+    overflow: auto;
+  }
+
+  .dresses {
+    margin: 20px;
+    text-align: center;
+}
+.sugar {
+    box-shadow: 0 2px 5px rgba(195, 16, 16, 0.1);
+    padding: 5px;
+    border-radius: 5px;
+    width: 15%;
+    padding-left: 20px;
+}
+.sugar img {
+    width: 100%;
+    border-radius: 5px;
+    padding-right: 10px;
+    
+}
+
+  footer {
+    background-color: #272a2d;
+    color: white;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column {
+    width: 20%;
+}
+.footer-column h3 {
+    border-bottom: 1px solid #939090;
+    padding-bottom: 15px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 10px 0;
+}
+.footer-column ul li a {
+    color: white;
+}
